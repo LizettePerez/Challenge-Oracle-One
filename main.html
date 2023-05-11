@@ -8,7 +8,7 @@
   <title>Encriptador</title>
   <script src="https://kit.fontawesome.com/33fc1bc4f1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./img/Logo-2.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -21,7 +21,8 @@
 Ingrese el texto aqui
       </textarea>
       <div>
-        <p class="textAlert"><i class="fa-sharp fa-solid fa-circle-exclamation" style="color: #d93f87;"></i> Solo letras minúsculas y sin acentos</p>
+        <p class="textAlert"><i class="fa-sharp fa-solid fa-circle-exclamation" style="color: #a5bcb6;"></i> Solo letras minúsculas y sin acentos</p>
+        <p class="errorAlert"><i class="fa-solid fa-triangle-exclamation" style="color: #3c413d;"></i> Debe ingresar un texto <i class="fa-solid fa-triangle-exclamation" style="color: #3c413d;"></i></p>
       </div>
       <button type="button" id="encrypt">Encriptar</button>
       <button type="button" id="decrypt">Desencriptar</button>
@@ -33,9 +34,12 @@ Ingrese el texto aqui
         <p>Ingresa el texto que desees encriptar o desencriptar.</p>
       </div>
       <textarea class="encryptedText" readonly="readonly"></textarea>
+      <button type="button" id="copy">Copiar</button>
     </aside>
   </div>
   <script src="./js/index.js"></script>
+  
 </body>
 
 </html>
+
