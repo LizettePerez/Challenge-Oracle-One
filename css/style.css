@@ -1,0 +1,135 @@
+/* PALETA DE COLORES
+Azul oscuro = #202833
+Gris = #c5c6c8
+Rosa = #d93f87
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202833;
+  color: #c5c6c8;
+  width: 100%;
+
+}
+
+header img {
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+textarea,
+.asideContainer {
+  width: 90%;
+  height: 60vh;
+  border-radius: 20px;
+  vertical-align: top;
+  padding-top: 10px;
+  resize: none;
+  text-align: justify;
+  padding: 2vw;
+  background-color: #202833;
+  color: #c5c6c8;
+  margin: 2vw;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+textarea:hover,
+.asideContainer:hover {
+  background-color: #d93f87;
+  outline: none;
+  box-shadow: 0 0 10px #d93f87,
+    0 0 20px #d93f87,
+    0 0 30px #d93f87;
+  color: #202833;
+  border: 3px solid rgba(241, 241, 241, 0.562);
+}
+
+textarea:focus,
+.asideContainer:focus {
+  background-color: #d93f87;
+  outline: none;
+  box-shadow: 0 0 10px #d93f87,
+    0 0 20px #d93f87,
+    0 0 30px #d93f87;
+  color: #202833;
+  border: 3px solid rgba(241, 241, 241, 0.562);
+}
+
+.encryptedText {
+  display: none;
+}
+
+.textAlert {
+  text-align: left !important;
+  margin: 0 60px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #202833;
+  color: #c5c6c8;
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
+  margin: 20px 10px;
+  box-shadow: 0 0 5px #d93f87,
+    0 0 10px #d93f87;
+  border: 3px solid #d93f87;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #d93f87;
+  outline: none;
+  box-shadow: 0 0 10px #d93f87,
+    0 0 20px #d93f87,
+    0 0 30px #d93f87;
+  color: #202833;
+  border: 3px solid rgba(241, 241, 241, 0.562);
+}
+
+button:focus {
+  background-color: #d93f87;
+  outline: none;
+  box-shadow: 0 0 10px #d93f87,
+    0 0 20px #d93f87,
+    0 0 30px #d93f87;
+  color: #202833;
+  border: 3px solid rgba(241, 241, 241, 0.562);
+}
+
+
+.asideContainer img {
+  width: 100%;
+}
+
+
+aside {
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 10px;
+  text-align: center;
+}

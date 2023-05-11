@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <script src="https://kit.fontawesome.com/33fc1bc4f1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/Logo-2.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img src="./img/Logo-2.png" alt="">
+  </header>
+  <div class="container">
+    <main>
+      <textarea class="userText" onfocus="this.value=''">
+Ingrese el texto aqui
+      </textarea>
+      <div>
+        <p class="textAlert"><i class="fa-sharp fa-solid fa-circle-exclamation" style="color: #d93f87;"></i> Solo letras minúsculas y sin acentos</p>
+      </div>
+      <button type="button" id="encrypt">Encriptar</button>
+      <button type="button" id="decrypt">Desencriptar</button>
+    </main>
+    <aside>
+      <div class="asideContainer">
+        <img src="./img/muñeco.png" alt="imgAside">
+        <h2>Ningún mensaje fue encontrado</h2>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <textarea class="encryptedText" readonly="readonly"></textarea>
+    </aside>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
